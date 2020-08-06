@@ -24,7 +24,7 @@ set good_licenses [list afl agpl apache apsl artistic autoconf beopen bitstreamv
                    gplconflict ibmpl ijg isc jasper lgpl libtool lppl mit \
                    mpl ncsa noncommercial openldap openssl permissive php \
                    psf public-domain qpl restrictive/distributable ruby \
-                   sleepycat ssleay tcl/tk vim w3c wtfpl wxwidgets x11 zlib zpl]
+                   sleepycat ssleay sspl tcl/tk vim w3c wtfpl wxwidgets x11 zlib zpl]
 foreach lic $good_licenses {
     set license_good($lic) 1
 }
